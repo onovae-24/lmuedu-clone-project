@@ -17,6 +17,9 @@ export default {
 				'2xl': '1400px'
 			}
 		},
+		fontFamily: {
+			sans: ['Inter', 'sans-serif'],
+		},
 		extend: {
 			colors: {
 				border: 'hsl(var(--border))',
@@ -52,6 +55,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// University-specific colors
+				'university-brown': 'hsl(var(--university-brown))',
+				'university-gold': 'hsl(var(--university-gold))',
+				'university-green': 'hsl(var(--university-green))',
+				'warm-beige': 'hsl(var(--warm-beige))',
+				'deep-brown': 'hsl(var(--deep-brown))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +93,54 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					from: {
+						opacity: '0',
+						transform: 'translateY(20px)'
+					},
+					to: {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'slide-up': {
+					from: {
+						opacity: '0',
+						transform: 'translateY(40px)'
+					},
+					to: {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'scale-in': {
+					from: {
+						opacity: '0',
+						transform: 'scale(0.9)'
+					},
+					to: {
+						opacity: '1',
+						transform: 'scale(1)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.8s ease-out',
+				'slide-up': 'slide-up 0.6s ease-out',
+				'scale-in': 'scale-in 0.5s ease-out'
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-gold': 'var(--gradient-gold)',
+				'gradient-hero': 'var(--gradient-hero)'
+			},
+			boxShadow: {
+				'warm': 'var(--shadow-warm)',
+				'gold': 'var(--shadow-gold)',
+				'elegant': 'var(--shadow-elegant)'
 			}
 		}
 	},
