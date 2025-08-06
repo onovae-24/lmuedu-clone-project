@@ -1,73 +1,114 @@
-# Welcome to your Lovable project
+# LMU Website Clone
 
-## Project info
+A modern, responsive university website clone built with React and TypeScript. This project replicates the design and functionality of a university website with contemporary web technologies.
 
-**URL**: https://lovable.dev/projects/fe46dd60-e946-47fb-9d4d-121202862efd
+## 🎯 About This Project
 
-## How can I edit this code?
+I created this application as a comprehensive university website featuring:
 
-There are several ways of editing your application.
+- **Modern Design**: Clean, professional layout with responsive design
+- **Interactive Components**: Dynamic sections for programs, news, and admissions
+- **Alumni Network**: Dedicated section showcasing notable alumni
+- **Event Calendar**: Integrated calendar for university events
+- **Statistics Dashboard**: Visual representation of university metrics
+- **Admission Process**: Streamlined admission information and processes
 
-**Use Lovable**
+## 🚀 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fe46dd60-e946-47fb-9d4d-121202862efd) and start prompting.
+- ✅ Responsive design optimized for all devices
+- ✅ Interactive navigation with smooth scrolling
+- ✅ Dynamic content sections
+- ✅ Modern UI components with shadcn/ui
+- ✅ TypeScript for type safety
+- ✅ Fast build times with Vite
+- ✅ Accessible design patterns
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+- **Frontend**: React 18 with TypeScript
+- **Styling**: Tailwind CSS with custom design system
+- **UI Components**: shadcn/ui with Radix UI primitives
+- **Build Tool**: Vite
+- **Routing**: React Router DOM
+- **State Management**: TanStack Query
+- **Icons**: Lucide React
+- **Charts**: Recharts
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📦 Installation & Setup
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd lmu-website-clone
+   ```
 
-Follow these steps:
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🏗️ Project Structure
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # Base UI components (shadcn/ui)
+│   ├── Hero.tsx        # Hero section component
+│   ├── Navigation.tsx  # Main navigation
+│   └── ...             # Other feature components
+├── pages/              # Page components
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+└── assets/             # Static assets and images
 ```
 
-**Edit a file directly in GitHub**
+## 🎨 Design System
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project implements a comprehensive design system with:
 
-**Use GitHub Codespaces**
+- **Custom color palette** defined in `index.css`
+- **Consistent typography** with Inter font family
+- **Reusable components** with variant patterns
+- **Dark/light mode support** with next-themes
+- **Responsive breakpoints** following Tailwind conventions
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📱 Components Overview
 
-## What technologies are used for this project?
+- **Hero Section**: Eye-catching introduction with university branding
+- **Programs Section**: Academic program showcase
+- **About Section**: University information and values
+- **News Section**: Latest university news and updates
+- **Statistics Section**: Key metrics and achievements
+- **Calendar Section**: Upcoming events and important dates
+- **Alumni Section**: Notable alumni highlights
+- **Admission Section**: Application process and requirements
+- **Footer**: Contact information and links
 
-This project is built with:
+## 🌐 Live Demo
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This project is deployed and can be viewed at: [Your deployment URL]
 
-## How can I deploy this project?
+## 👨‍💻 Author
 
-Simply open [Lovable](https://lovable.dev/projects/fe46dd60-e946-47fb-9d4d-121202862efd) and click on Share -> Publish.
+**Your Name**
+- Created and developed this LMU website clone
+- Implemented modern React patterns and TypeScript
+- Designed responsive UI with Tailwind CSS
 
-## Can I connect a custom domain to my Lovable project?
+## 📄 License
 
-Yes, you can!
+This project is created for educational and portfolio purposes.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+*Built with ❤️ using React, TypeScript, and modern web technologies*
