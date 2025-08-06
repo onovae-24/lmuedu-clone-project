@@ -98,13 +98,6 @@ This project implements a comprehensive design system with:
 
 This project is deployed and can be viewed at: [Your deployment URL]
 
-## 👨‍💻 Author
-
-**Your Name**
-- Created and developed this LMU website clone
-- Implemented modern React patterns and TypeScript
-- Designed responsive UI with Tailwind CSS
-
 ## 📄 License
 
 This project is created for educational and portfolio purposes.
