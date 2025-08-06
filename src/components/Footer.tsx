@@ -11,7 +11,7 @@ import {
   Phone, 
   Mail 
 } from "lucide-react";
-import universityLogo from "@/assets/university-logo.png";
+
 
 const Footer = () => {
   const footerSections = [
@@ -74,7 +74,6 @@ const Footer = () => {
           {/* University Info */}
           <div className="lg:col-span-2 space-y-6">
             <div className="flex items-center space-x-3">
-              <img src={universityLogo} alt="University Logo" className="h-12 w-12" />
               <div>
                 <h1 className="text-xl font-bold">LANDMARK</h1>
                 <p className="text-sm">UNIVERSITY</p>

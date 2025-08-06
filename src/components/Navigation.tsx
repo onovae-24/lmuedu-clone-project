@@ -10,7 +10,7 @@ import {
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import universityLogo from "@/assets/university-logo.png";
+
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -81,7 +81,6 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <img src={universityLogo} alt="University Logo" className="h-12 w-12" />
             <div className="text-university-brown">
               <h1 className="text-xl font-bold">LANDMARK</h1>
               <p className="text-sm">UNIVERSITY</p>
